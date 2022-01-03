@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =========================================
+            header part start
+==========================================*/
+header {
+    background-color: #0f2f44;
+}
+
+header .header-main {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .header-main .header-left {
+    flex-basis: 50%;
+}
+
+header .header-main .header-right {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+/* =========================================
+            header part end
+==========================================*/
+/* =========================================
+            nav part start
+==========================================*/
+
+
+nav .nav-main {
+    display: flex;
+}
+
+nav .nav-main .logo {
+    flex-basis: 20%;
+    margin-top: 28px;
+}
+
+nav .nav-main .menu {
+    flex-basis: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav .nav-main .menu ul {
+    text-align: center;
+
+}
+
+nav .nav-main .menu ul li {
+    display: inline-block;
+}
+
+nav .nav-main .menu ul li:hover a {
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+
+nav .nav-main .menu ul li a {
+    display: inline-block;
+    padding: 35px 25px;
+    color: #000;
+    transition: .4s;
+}
+
+nav .nav-main .menu ul li a:hover {
+    color: #ffc712;
+}
+
+nav .nav-main .bar {
+    margin-top: 30px;
+
+}
+
+nav .nav-main .bar i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav .nav-main .bar a {
+    color: #999999;
+}
+
+
+nav .nav-main .nav-bar {
+    flex-basis: 5%;
+}
+
+nav .nav-main .search-bar {
+    flex-basis: 5%;
+}
+
+/* =========================================
+            nav part end
+==========================================*/
+
+/* =========================================
+            banner part start
+==========================================*/
+#banner-part {
+    background: url(../Images/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 142px;
+    padding-bottom: 147px;
+}
+
+#banner-part .banner-text .text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+#banner-part .banner-text .text2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #0f2f44;
+    margin-top: -30px;
+    margin-bottom: -13px;
+}
+
+#banner-part .banner-text .text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #aab0d8;
+    letter-spacing: 14px;
+    margin-bottom: 10px;
+}
+
+#banner-part .banner-text .details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 470px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+#banner-part .banner-text .banner-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #8484bf;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -moz-transition: all linear .5s;
+}
+
+#banner-part .banner-text .banner-btn:hover {
+    color: #8484bf;
+    background-color: #fff;
+    border: 1px solid #8484bf;
+}
+
+#banner-part .banner-text i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #8484bf;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 20px;
+    -moz-transition: all linear .5s;
+}
+
+#banner-part .banner-text i:hover {
+    background: #8484bf;
+    color: #fff;
+}
+
+/* =========================================
+            banner part end
+==========================================*/
+
+/* =========================================
+            about part start
+==========================================*/
+#about-part .about-main {
+    display: flex;
+    padding: 100px 0;
+}
+
+#about-part .about-main .about-details {
+    flex-basis: 50%;
+}
+
+#about-part .about-main .about-details h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+#about-part .about-main .about-details h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f2f44;
+    margin-bottom: 32px;
+    margin-top: -8px;
+}
+
+#about-part .about-main .about-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #0f2f44;
+    margin-bottom: 21px;
+}
+
+#about-part .about-main .about-details ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #0f2f44;
+    margin-left: 30px;
+}
+
+#about-part .about-main .about-details li {
+    margin-bottom: 20px;
+}
+
+#about-part .about-main .about-details .about-btn {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    background: #ffffff;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 7px;
+    -moz-transition: all linear .5s;
+    box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.1);
+}
+
+#about-part .about-main .about-details .about-btn:hover{
+    background: #fcc512;
+    box-shadow: 4px 8px 5px 0px rgba(0,0,0,0);
+}
+
+#about-part .about-main .about-image {
+    flex-basis: 50%;
+}
+
+/* =========================================
+            about part end
+==========================================*/
+
+/* =========================================
+            skill part start
+==========================================*/
+
+/* =========================================
+            skill part end
+==========================================*/
